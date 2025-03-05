@@ -1,7 +1,7 @@
 # cs429-mastery-assignment
-- Note that ALL git commands must be in the command line.
-- Note that ALL gdb debugging must be in the command line.
-- Note that ALL file system actions (eg. creating a file, navigating a file, etc) must be in the command line
+- **Note that ALL git commands must be in the command line.**
+- **Note that ALL gdb debugging must be in the command line.**
+- **Note that ALL file system actions (eg. creating a file, navigating a file, etc) must be in the command line**
 
 # What this repo contains:
 - `main.c`, `reader.c`, `calculator.c` and their corresponding header files.
