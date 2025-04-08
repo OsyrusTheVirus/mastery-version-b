@@ -1,0 +1,9 @@
+9  q
+10  r testcases/milti_op_err2.s
+11  q
+12  r testcases/milti_op_err2.s
+13  r testcases/multi_op_err2.s
+14  p val_a
+15  p *val_a
+16  q
+17  show commands

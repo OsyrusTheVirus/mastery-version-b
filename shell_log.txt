@@ -1,0 +1,500 @@
+   29  gdb bin/ci
+   30  ci_reference -i testcases/week4/collatz_recursive.s -o answer
+   31  bin/ci -i testcases/week4/collatz_recursive.s -o mycode
+   32  test_runner week4
+   33  test_runner week3
+   34  test_runner week2
+   35  git add .
+   36  git commit -m "ye"
+   37  git push
+   38  rm call_simp.s 
+   39  git add .
+   40  git commit -m "ye"
+   41  git push
+   42  ls
+   43  cd ci-lab-OsyrusTheVirus/
+   44  ls
+   45  make clean
+   46  make debug
+   47  test_runner week4
+   48  who
+   49  who -u
+   50  git clone CS429-SP2025/mm-lab-OsyrusTheVirus
+   51  git clone CS429-SP2025/cs429-sp2025-mm-lab-mm-lab-4
+   52  git clone https://github.com/CS429-SP2025/mm-lab-OsyrusTheVirus
+   53  ls
+   54  git clone https://github.com/CS429-SP2025/mm-lab-OsyrusTheVirus
+   55  ls
+   56  cd ./
+   57  ls
+   58  cd ../
+   59  ls
+   60  cd ../
+   61  ls
+   62  cd ../
+   63  ;s
+   64  ls
+   65  cd u
+   66  ls
+   67  cd osyrusk
+   68  ls
+   69  ssh-keygen -t rsa -b 4096
+   70  ls
+   71  cd /.ssh
+   72  ls
+   73  cd ./
+   74  ls
+   75  cd ../
+   76  ls
+   77  cd .ssh
+   78  cat ~/.ssh/id_rsa.pub
+   79  git clone https://github.com/CS429-SP2025/mm-lab-OsyrusTheVirus
+   80  ls
+   81  cd osyrusk
+   82  ls
+   83  git clone https://github.com/CS429-SP2025/mm-lab-OsyrusTheVirus
+   84  ls
+   85  git clone https://github.com/CS429-SP2025/mm-lab-OsyrusTheVirus
+   86  git clone https://github.com/CS429-SP2025/mm-lab-OsyrusTheVirus
+   87  git clone https://github.com/CS429-SP2025/mm-lab-OsyrusTheVirus
+   88  ls
+   89  cd mm-lab-OsyrusTheVirus/
+   90  git add .
+   91  git commit -m "updating..."
+   92  git push
+   93  ls
+   94  ./install.sh
+   95  chmod +x install.sh
+   96  git add .
+   97  git commit -m "committing"
+   98  git push
+   99  git push
+  100  git add .
+  101  git commit -m "updating"
+  102  git push
+  103  git push
+  104  rm unittest.c
+  105  rmdir unittests/
+  106  rm ./unittests/example.txt 
+  107  rmdir unittests/
+  108  chmod +x install.sh
+  109  git add .
+  110  git commit -m "committing"
+  111  git push
+  112  make clean
+  113  make debug
+  114  make test_week2
+  115  gdb
+  116  make clean
+  117  make debug
+  118  make clean
+  119  make debug
+  120  make clean
+  121  make dbeug
+  122  make debug
+  123  make clean
+  124  git add .
+  125  git commit -m "finished check_heap"
+  126  git push
+  127  make clean
+  128  make debug
+  129  ./runner -r traces/short2.rep
+  130  make clean
+  131  make clean
+  132  make debug
+  133  gdb runner
+  134  gdb runner
+  135  gdb runner
+  136  make clean
+  137  make debug
+  138  gdb runner
+  139  make clean
+  140  make debug
+  141  gdb runner
+  142  gdb runner
+  143  gdb runner
+  144  make clean
+  145  make debug
+  146  gdb runner
+  147  make clean
+  148  make debug
+  149  gdb runner
+  150  make clean
+  151  make debug
+  152  gdb runner
+  153  make clean
+  154  make debug
+  155  make clean
+  156  make debug
+  157  gdb runner
+  158  make clean
+  159  make debug
+  160  gdb runner
+  161  make clean
+  162  make clean
+  163  make debug
+  164  gdb runner
+  165  make clean
+  166  make clean
+  167  make debug
+  168  gdb runner
+  169  make clean
+  170  make clean
+  171  make debug
+  172  gdb runner
+  173  make clean
+  174  make debug
+  175  make clean
+  176  make clean
+  177  make debug
+  178  gdb runner
+  179  make clean
+  180  touch traces/ztest.rep
+  181  make clean
+  182  make debug
+  183  gdb runner
+  184  touch traces/ztest-bal.rep
+  185  make clean
+  186  make debug
+  187  gdb runner
+  188  make clean
+  189  make debug
+  190  gdb runner
+  191  gdb runner
+  192  make clean
+  193  make debug
+  194  gdb runner
+  195  gdb runner
+  196  make clean
+  197  make debug
+  198  gdb runner
+  199  make clean
+  200  make debug
+  201  gdb runner
+  202  make clean
+  203  make debug
+  204  gdb runner
+  205  make clean
+  206  make dbeug
+  207  make dbeug
+  208  make debug
+  209  make clean
+  210  make debug
+  211  gdb runner
+  212  rm traces/ztest*
+  213  make clean
+  214  make debug
+  215  gdb
+  216  gdb runner -r traces/random2.rep 
+  217  gdb runner
+  218  gdb runner
+  219  make clean
+  220  make debug
+  221  make clean
+  222  git add .
+  223  git commit -m "week 1 complete"
+  224  git push
+  225  make clean
+  226  make debug
+  227  heap_runner
+  228  gdb heap_runner
+  229  gdb runner
+  230  gdb heap_runner
+  231  git add .
+  232  git commit -m "updated check_heap"
+  233  git push
+  234  make clean
+  235  git add .
+  236  git commit -m "updated check heap"
+  237  git push
+  238  runner -r traces/short2.rep 
+  239  make clean
+  240  make debug
+  241  runner -r traces/short2.rep 
+  242  gdb runner
+  243  make clean
+  244  touch coaltest.rep
+  245  make clean
+  246  make debug
+  247  gdb runner
+  248  rm coaltest.rep 
+  249  make clean
+  250  make debug
+  251  gdb runner
+  252  make clean
+  253  make debug
+  254  gdb runner
+  255  make clean
+  256  make debug
+  257  gdb runner
+  258  make clean
+  259  make debug
+  260  make clean
+  261  git add .
+  262  git commit -m "week 2 almost complete"
+  263  git push 
+  264  make clean
+  265  make debug
+  266  gdb runner
+  267  make clean
+  268  make debug
+  269  gdb runner
+  270  driver.py
+  271  make clean
+  272  install.sh
+  273  driver.py
+  274  git add .
+  275  git commit -m "completed"
+  276  make clean
+  277  make debug
+  278  make clean
+  279  git add .
+  280  git commit -m "completed"
+  281  git push
+  282  make clean
+  283  make debug
+  284  driver.py 
+  285  runner -r traces/random2.rep
+  286  driver.py 
+  287  driver.py 
+  288  driver.py 
+  289  driver.py 
+  290  driver.py 
+  291  driver.py 
+  292  driver.py 
+  293  driver.py 
+  294  driver.py 
+  295  driver.py 
+  296  driver.py 
+  297  driver.py 
+  298  gdb runner r traces/random.rep 
+  299  make clean
+  300  git add .
+  301  git commit -m "edited for speed"
+  302  git push 
+  303  driver.py 
+  304  make clean
+  305  make clean
+  306  make clean
+  307  make debug
+  308  runner
+  309  runner -r 
+  310  runner -r traces/random.rep 
+  311  runner -u traces/random.rep 
+  312  make clean
+  313  ls
+  314  ls
+  315  ls
+  316  git clone https://github.com/CS429-SP2025/shared-repo-version-b-OsyrusTheVirus
+  317  git clone https://github.com/CS429-SP2025/shared-repo-version-b-OsyrusTheVirus
+  318  ls
+  319  ls .
+  320  ls ../
+  321  cd ../shared-repo-version-b-OsyrusTheVirus/
+  322  ls
+  323  git clone https://github.com/CS429-SP2025/shared-repo-version-b-OsyrusTheVirus
+  324  ls
+  325  ls
+  326  make clean
+  327  make debug
+  328  make tests
+  329  gdb reader
+  330  make check
+  331  gdb mini_ci
+  332  rm mastery_file.gdbinit 
+  333  gdb mini_ci
+  334  make clean
+  335  make debug
+  336  gdb mini_ci
+  337  gdb mini_ci
+  338  git add .
+  339  git commit -m "committing"
+  340  git commit -m "updating"
+  341  make clean
+  342  git add .
+  343  git commit -m "updating"
+  344  git push
+  345  rm -rf
+  346  ls
+  347  cd ..
+  348  ls
+  349  rm shared-repo-version-b-OsyrusTheVirus/
+  350  rm shared-repo-version-b-OsyrusTheVirus/ -rf
+  351  ls
+  352  ls
+  353  pwd
+  354  ls
+  355  exit
+  356  ls
+  357  w
+  358  who
+  359  users
+  360  man mssg
+  361  man message
+  362  man write
+  363  exit
+  364  ls
+  365  ls
+  366  ls
+  367  git clone https://github.com/CS429-SP2025/se-lab-osyrus
+  368  ls
+  369  make
+  370  make clean
+  371  make 
+  372  gdb testbench
+  373  gdb bin/test-hw
+  374  test-hw
+  375  bin/test-hw 
+  376  bin/test-hw -h
+  377  bin/test-hw -v 2
+  378  gdb bin/test-hw
+  379  chmod +x bin/se-ref-wk*
+  380  gdb bin/test-hw
+  381  make 
+  382  make clean
+  383  make
+  384  gdb bin/test-hw
+  385  make
+  386  gdb bin/test-hw
+  387  make
+  388  gdb bin/test-hw
+  389  gdb bin/test-hw
+  390  git add .
+  391  git commit -m "working on week 1"
+  392  git commit
+  393  git push
+  394  MAKE
+  395  make
+  396  make clean
+  397  make
+  398  gdb bin/test-hw
+  399  make
+  400  gdb bin/test-hw
+  401  make
+  402  gdb bin/test-hw
+  403  git add .
+  404  git commit -m "fixing errors for week 1"
+  405  git push
+  406  make
+  407  gdb bin/test-hw
+  408  gdb bin/test-hw
+  409  gdb bin/test-hw
+  410  n
+  411  gdb bin/test-hw
+  412  make
+  413  gdb bin/test-hw
+  414  make
+  415  gdb bin/test-hw
+  416  r 
+  417  make test-hw
+  418  make
+  419  bin/test-hw
+  420  r bin/test-hw
+  421  r bin/test-hw
+  422  bin/test-hw
+  423  make
+  424  git add .
+  425  git commit -m "finished week 1"
+  426  git push
+  427  make clean
+  428  make debug
+  429  make tests
+  430  make check
+  431  gdb mini_ci
+  432  touch ~/.gdbinit
+  433  make clean
+  434  make debug
+  435  gdb mini_ci
+  436  make clean
+  437  make debug
+  438  make tests
+  439  make check
+  440  git add.
+  441  ls
+  442  cd .
+  443  cd ./
+  444  cd ../
+  445  ls
+  446  rm mastery-version-a/
+  447  rm -r mastery-version-a/
+  448  ls
+  449  rmdir mastery-version-a/
+  450  ls mastery-version-a/
+  451  rm mastery-version-a/
+  452  rm dir mastery-version-a/
+  453  rmdir mastery-version-a/
+  454  cd .
+  455  cd ../
+  456  ls
+  457  git clone https://github.com/CS429-SP2025/mastery-version-a.git
+  458  ls
+  459  ls
+  460  rmdir mastery-version-a/
+  461  rm -r mastery-version-a/
+  462  rm -rf mastery-version-a/
+  463  ls
+  464  make clone https://github.com/OsyrusTheVirus/mastery-version-a
+  465  git clone https://github.com/OsyrusTheVirus/mastery-version-a
+  466  make clean
+  467  make debug
+  468  gdb mini_ci
+  469  git add .
+  470  git commit -m "completed"
+  471  git push
+  472  cd ../
+  473  ls
+  474  rm -f mastery-version-a/
+  475  rm -rf mastery-version-a/
+  476  ls
+  477  git clone https://github.com/OsyrusTheVirus/mastery-version-f
+  478  make clean
+  479  make debug
+  480  make check
+  481  make comp
+  482  gdb bin/a.out
+  483  touch ~/.gdbinit
+  484  ls
+  485  ls -a
+  486  echo "set history save on"
+  487  echo "set history save on" > ~/.gdbinit 
+  488  cat ~/.gdbinit 
+  489  git clone git@github.com:OsyrusTheVirus/mastery-version-b.git
+  490  ls
+  491  mkdir mastery_demos
+  492  ls
+  493  mv mastery-version-f mastery_demos
+  494  ls
+  495  mv mastery-version-b mastery_demos
+  496  ls
+  497  cd mastery_demos/
+  498  ls
+  499  cd mastery-version-b
+  500  ls
+  501  make
+  502  mini_ci
+  503  mini_ci testcases/basic_add.s
+  504  make check
+  505  make debug
+  506  make clean
+  507  make debug
+  508  gdb mini_ci
+  509  make
+  510  run mini_ci testcases/basic_add.s
+  511  mini_ci testcases/basic_add.s
+  512  mini_ci_reference testcases/basic_add.s
+  513  make
+  514  mini_ci testcases/basic_add.s
+  515  mini_ci_reference testcases/basic_add.s
+  516  make check
+  517  gdb mini_ci
+  518  make debug
+  519  gdb mini_ci
+  520  make clean
+  521  make debug
+  522  gdb mini_ci
+  523  make clean
+  524  make clean
+  525  make
+  526  make check
+  527  history
+  528  history > shell_log.txt
